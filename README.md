@@ -1,2 +1,14 @@
-# DuniaKreator
-Upload a photo of a product, and our AI will generate a new image of a model showcasing it. Perfect for creating marketing visuals and mockups instantly.
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
